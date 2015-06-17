@@ -24,13 +24,20 @@
 
         <div class="grid-item grid-item-<?=$arParams['PREVIEW_WIDTH']?>-<?=$arParams['PREVIEW_HEIGHT']?>" style="background-image: url('<?=$item['BANNER']['src']?>')"></div>
 
-    <?}else{?>
+    <?}elseif($arParams['TYPE'] == 'HTML'){?>
 
         <div class="grid-item grid-item-<?=$arParams['PREVIEW_WIDTH']?>-<?=$arParams['PREVIEW_HEIGHT']?>">
             <?=$item['VALUE']?>
         </div>
 
-    <?}?>
+    <?}elseif($arParams['TYPE'] == 'PHP'){?>
+		
+		<div class="grid-item grid-item-<?=$arParams['PREVIEW_WIDTH']?>-<?=$arParams['PREVIEW_HEIGHT']?>">
+		<?$str = '';
+		eval('$str = ' . $item['VALUE'] . ';');
+        echo $str. "\n";?>
+		</div>
+	<?}?>
 
 <?}?>
 
