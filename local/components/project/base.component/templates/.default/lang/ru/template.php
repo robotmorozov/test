@@ -1,0 +1,3 @@
+<?
+$MESS['BASE_COMPONENT_TEMPLATE_TITLE'] = 'Новости';
+?>

@@ -1,0 +1,4 @@
+<?
+$MESS['ELEMENTS_LIST_PARAMETERS_TYPE'] = 'Тип блока';
+$MESS['ELEMENTS_LIST_PARAMETERS_ID'] = 'Id элемента';
+?>

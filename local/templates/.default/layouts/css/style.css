@@ -1,0 +1,87 @@
+html,
+body {
+  background: #eff2f7;
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+}
+.inside {
+  width: 100%;
+  max-width: 1140px;
+  min-width: 564px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+header {
+  background: #22539d;
+  color: white;
+}
+footer {
+  background: #22539d;
+  color: white;
+}
+.grid {
+  margin: 0 auto;
+}
+.grid-item {
+  width: 277px;
+  height: 277px;
+  background: #22539d;
+  color: white;
+  float: left;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.grid-item-2-1 {
+  width: 564px;
+}
+.grid-item-2-2 {
+  width: 564px;
+  height: 564px;
+}
+.grid-item-4-1 {
+  width: 1138px;
+}
+@media screen and (max-width: 1140px) {
+  .grid-item-4-1 {
+    width: 564px;
+  }
+}
+.grid-item-4-2 {
+  width: 1138px;
+  height: 564px;
+}
+@media screen and (max-width: 1140px) {
+  .grid-item-4-2 {
+    width: 564px;
+    height: 277px;
+  }
+}
+.grid-item-564-277 {
+  width: 564px;
+}
+.grid-item-564-564 {
+  width: 564px;
+  height: 564px;
+}
+.grid-item-1140-277 {
+  width: 1138px;
+}
+@media screen and (max-width: 1140px) {
+  .grid-item-1140-277 {
+    width: 564px;
+  }
+}
+.grid-item-1140-564 {
+  width: 1138px;
+  height: 564px;
+}
+@media screen and (max-width: 1140px) {
+  .grid-item-1140-564 {
+    width: 564px;
+    height: 277px;
+  }
+}
